@@ -11,7 +11,7 @@
         const LASER_EXPLODE_DUR = 0.3;
         const CANNON_SIZE = 30;
         const SHOW_BOUNDING = false; 
-        const LASER_MAX = 10000000000000000;
+        const LASER_MAX = 1000000000000000000;
         const TEXT_FADE_TIME = 2.5;
         const TEXT_SIZE = 700;
         const SAVE_KEY_SCOE = "highscore";
@@ -161,7 +161,7 @@
                 x: Math.random()* canv.width ,
                 y: 0,
                 xv: 0,
-                yv: (Math.random()* STONE_SPD * 3)/40,
+                yv: (Math.random()* STONE_SPD * 3)/25,
                 a: Math.random() * Math.PI * 2, // in radians
                 r: r,
                 offs: [],
