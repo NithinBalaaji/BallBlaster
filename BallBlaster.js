@@ -188,7 +188,7 @@
                 x :x1,
                 y: y1,
                 xv: xv,
-                yv: -(STONE_SPD*Math.sin(Math.random()*130*(Math.PI)/180)*-1)/10,
+                yv: STONE_SPD/10,
                 a: Math.random() * Math.PI * 2, // in radians
                 r: r,
                 offs: [],
